@@ -1,0 +1,66 @@
+body,ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.focus{
+    width: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    /*border-radius: 50%;*/
+}
+.focus .lb{
+    width: 3600px;
+    overflow: hidden;
+}
+.focus .lb li{
+    width: 600px;
+    overflow: hidden;
+    float: left;
+}
+.focus img{
+    width: 100%;
+    border: none;
+    display: block;
+    -webkit-user-select:none ;
+}
+.focus .btn{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: center;
+    font: 16px/40px "Microsoft YaHei";
+    position: absolute;
+    margin-top: -20px;
+    top: 50%;
+    cursor: pointer;
+    -webkit-user-select:none ;
+    display:none;
+}
+.focus .RBtn{right: 10px;}
+.focus .LBtn{left:10px;}
+.focus .dot{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -35px;
+}
+.focus .dot li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background:white;
+    float: left;
+    margin: 0 2px;
+    cursor: pointer;
+
+}
+.focus .dot li:first-child{
+    background:#3cf;
+}
+.focus:hover .btn{
+    display:block;
+}
